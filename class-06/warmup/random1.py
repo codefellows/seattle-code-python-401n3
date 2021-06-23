@@ -10,6 +10,7 @@ number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 random_number = random.choice(number_list)
 
 # Print the random number
-print(random_number)
+# print(random_number)
+print(random.randint(0,4))
 
 # Is there anything wrong with this code?
