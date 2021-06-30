@@ -11,13 +11,15 @@ employees = [
 ]
 
 # Challenge #1
-filtered_employees_one = []
+filtered_employees_one = [
+    employee['name'] for employee in employees if employee['senority'] i >= 10]
 
 if filtered_employees_one == ['John Conners', 'Bilbo Baggins', 'Darth Revan']:
     print('SUCCESS Test One')
 
 # Challenge #2
-filtered_employees_two = []
+filtered_employees_two = [
+    employee['name'] for employee in employee if employee['senority'] i%3 == 0]
 
 if filtered_employees_two == ['River Tam', 'Bilbo Baggins', 'Khan', 'R2D2']:
     print('SUCCESS Test Two')
