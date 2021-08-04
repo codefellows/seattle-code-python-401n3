@@ -19,4 +19,3 @@ if string in word_list or string in name_list:
 else:
     print('I am not here')
 
-if word_count > 60%
