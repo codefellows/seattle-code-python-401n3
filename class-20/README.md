@@ -8,6 +8,8 @@
   - Your may build a back-end for your final project (upon instructor approval)
   - Get approval for any UI beyond CLI
 - Tell a great story!
+- 80% Test Coverage
+- Deployed (Heroku, Digitial Ocean, etc..)
 
 Tools At Your Disposal
 
@@ -30,19 +32,18 @@ Tools At Your Disposal
 - To Manage and Deploy Code
   - SCM: Use the strict [Git Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
   - Deployment:
-      - Local dev/feature branches
-        - One Branch Per Feature
-      - Staging (Pre-Production) Branch
-      - Main (Production) Branch
+    - Local dev/feature branches
+      - One Branch Per Feature
+    - Staging (Pre-Production) Branch
+    - Main (Production) Branch
   - Developers work locally in feature branches
   - Check-in and merge PRs against `stage`
   - Once verified, PR stage against main and "deploy"
   - Protect `main` from direct check-ins
-      - Ask TA/Instructor if not sure how to protect branch.
+    - Ask TA/Instructor if not sure how to protect branch.
   - Merge from `stage` to `main` according to team agreement
   - Testing: Hook in GitHub Actions for live code testing
-      - E.g. of this in your `data-structures-and-algorithms` repo.
-
+    - E.g. of this in your `data-structures-and-algorithms` repo.
 
 ## Development Schedule
 
@@ -54,7 +55,6 @@ Tools At Your Disposal
   - Other Repo's for supporting services
 - Deploy a simple "Hello World" server through your full pipeline
   - Stage and Production of all apps
-  - Tests hooked up and passing
 - Get your project board setup with your initial stories
   - At this stage, its's probably just stories to write more stories...
 - Setup documentation
