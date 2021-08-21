@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block title%}
+        <!-- title goes here -->
+        {% endblock title %}
+</head>
+<header>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+    </nav>
+
+</header>
+<body>
+    {% block content %}
+    <!-- This is where our content for the page is going to go -->
+    {% endblock content %}
+</body>
+</html>
