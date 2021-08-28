@@ -6,6 +6,6 @@
         <p>{{ movie.description }}</p>
         <h3>{{ movie.owner }}</h3>
     </section>
-    <a href="{% url 'update_view' movie.pk %}">+ Update Movie</a>
-    <a href="{% url 'delete_view' movie.pk %}">+ Delete Movie</a>
+    <a href="{% url 'movie_update' movie.pk %}">+ Update Movie</a>
+    <a href="{% url 'movie_delete' movie.pk %}">+ Delete Movie</a>
 {% endblock content %}
