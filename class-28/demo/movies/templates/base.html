@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+<header>
+    <h1><a href="{% url 'list_view' %}">Full Movie List</a></h1>
+</header>
+<body>
+    {% block content %}
+        <p>Looks like somebody forgot to define this block in child template</p>
+    {% endblock content %}
+</body>
+</html>
