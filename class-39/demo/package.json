@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "swr": "^1.0.1"
+  }
+}
